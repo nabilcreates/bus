@@ -12,3 +12,9 @@ All development files are in `/src`
 
 -   styles.scss
     -   Main sass styles
+
+# Build files with webpack
+-   `npm run build` (Production)
+    -   Build all the files in 'production' mode
+-   `npm run start` (Development)
+    -   Start webpack in watch mode
