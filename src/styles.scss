@@ -1,7 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
 body{
 
-    #stopCodeInput{
-        font-size: 16px;
+    width: 95vw;
+    margin: auto;
+    padding: 0;
+    background: #222;
+    font-family: 'Oswald', sans-serif;
+
+    #form{
+        padding: 15px 0;
+        text-align: center;
+
+        input, button{
+            border-radius: 0;
+            border: 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button{
+            background: #333;
+            color: whitesmoke;
+        }
+        
+        input{
+            background: rgba(0,0,0,0.20);
+            color: whitesmoke;
+        }
+    }
+    
+    #bus{
+        background: #222;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+        color: whitesmoke;
+
+        h1{
+            margin: 0;
+            font-weight: 700;
+        }
+
+        p{
+            margin: 5px 0;
+            font-weight: 300;
+        }
+    }
+
+    #bus:nth-of-type(2n){
+        background: rgba(0,0,0,0.20);
     }
     
     #timings{
