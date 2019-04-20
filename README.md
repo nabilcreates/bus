@@ -1,6 +1,6 @@
 # Bus
 
-All development files are in `/src`
+# All development files are in `/src`
 -   getBus.js
     -   the getBus function (basically a template file)
 
